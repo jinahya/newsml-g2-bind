@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<planningItem 
+	guid="urn:newsml:iptc.org:20101025:gbmrmdreis4711" 
+	version="8"
+	standard="NewsML-G2" 
+	standardversion="2.21" 
+	conformance="core"
+	xml:lang="en">
+	<catalogRef href="http://www.iptc.org/std/catalog/IPTC-G2-Standards_27.xml" />
+	<catalogRef href="http://www.example.com/events/event-catalog.xml" />
+	<itemMeta>
+		<itemClass qcode="plinat:newscoverage" />
+		<provider qcode="nprov:IPTC" />
+		<versionCreated>2015-10-18T13:45:00Z 
+		</versionCreated>
+		<pubStatus qcode="stat:usable" />
+	</itemMeta>
+	<contentMeta>
+	<urgency>5</urgency>
+	<contentCreated>2015-10-16T12:15:00Z</contentCreated>
+	<contentModified>2015-10-16T13:35:00Z</contentModified>
+	</contentMeta>
+		<newsCoverageSet>
+				<newsCoverage>
+					<planning>
+						<edNote>Text 250 words</edNote>
+					</planning>
+				</newsCoverage>
+				<newsCoverage>
+					<planning>
+						<edNote>Picture scheduled 2015-11-06T13:00:00+02:00</edNote>
+					</planning>
+					<delivery>
+						<deliveredItemRef 
+							guidref="tag:example.com,2008:ART-ENT-SRV:USA20081220098658">
+						</deliveredItemRef>
+					</delivery>
+				</newsCoverage>
+		</newsCoverageSet>
+</planningItem>
