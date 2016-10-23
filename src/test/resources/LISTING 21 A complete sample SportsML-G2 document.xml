@@ -1,129 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<newsItem guid="tag:xmlteam.com,2015:xt.5932656-pitcher-preview"
-	version="8" 
-	xmlns:xts="www.xmlteam.com" standard="NewsML-G2" standardversion="2.21"
-	conformance="power" xml:lang="en-US">
-	<catalogRef
-		href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml" />
-	<catalogRef
-		href="http://www.xmlteam.com/specification/xts-SportsCodesCatalog_1.xml" />
-	<itemMeta>
-		<itemClass qcode="ninat:text" />
-		<provider qcode="web:www.xmlteam.com" />
-		<versionCreated>2015-10-19T16:00:00Z</versionCreated>
-		<pubStatus qcode="stat:usable" />
-		<fileName>xt.5932656-pitcher-preview.xml</fileName>
-	</itemMeta>
-	<contentMeta>
-		<contentCreated>2015-10-19T12:17:00-05:00</contentCreated>
-		<located qcode="city:Philadelphia">
-			<broader qcode="reg:Pennsylvania" />
-			<broader qcode="cntry:USA" />
-		</located>
-		<creator qcode="web:sportsnetwork.com">
-			<name>The Sports Network</name>
-		</creator>
-		<altId type="idtype:tsn-id" id="sportsnetwork.com-5932656" />
-		<altId type="idtype:revision-id"
-			id="l.mlb.com-2015-e.19358-pre-event-coverage-sportsnetwork.com" />
-		<genre type="spcpnat:spfixt" qcode="spfixt:pitcher-preview">
-			<name xml:lang="en-US">Game Pitcher Preview</name>
-			<broader qcode="dclass:event-summary" />
-		</genre>
-		<genre type="spcpnat:dclass" qcode="dclass:event-summary" />
-		<genre type="xts-genre:tsn-fixture" qcode="tsn-fixture:mlbpreviewxml" />
-		<language tag="en-US" />
-		<subject qcode="medtop:20000822">
-			<name xml:lang="en-US">sport</name>
-		</subject>
-		<subject qcode="medtop:20000849">
-			<name xml:lang="en-US">Baseball</name>
-			<broader qcode="medtop:20000822" />
-		</subject>
-		<subject qcode="league:l.mlb.com">
-			<name xml:lang="en-US">Major League Baseball</name>
-			<broader qcode="medtop:20000822" />
-			<sameAs qcode="subj:15007000" />
-		</subject>
-		<subject type="spcpnat:conf" qcode="conf:l.mlb.com-c.national">
-			<name xml:lang="en-US">National</name>
-			<broader qcode="league:l.mlb.com" />
-		</subject>
-		<subject type="cpnat:event" qcode="event:l.mlb.com-2015-e.19358" />
-		<subject type="spcpnat:team" qcode="team:l.mlb.com-t.19">
-			<name>Philadelphia Phillies</name>
-		</subject>
-		<subject type="spcpnat:team" qcode="team:l.mlb.com-t.26">
-			<name>Arizona Diamondbacks</name>
-		</subject>
-		<subject type="cpnat:person" qcode="person:l.mlb.com-p.456">
-			<name role="nrol:full">Doug Davis</name>
-			<sameAs qcode="fssID:45679" />
-		</subject>
-		<subject type="cpnat:person" qcode="person:l.mlb.com-p.123">
-			<name role="nrol:full">Freddy Garcia</name>
-			<sameAs qcode="fssID:45680" />
-		</subject>
-		<headline>Pitcher Preview: Arizona Diamondbacks (29-23) at Philadelphia 
-			Phillies (26-24),7:05 p.m.</headline>
-		<slugline separator="-">AAV!PREVIEW-ARI-PHI</slugline>
-	</contentMeta>
-	<contentSet>
-		<inlineXML contenttype="application/sportsml+xml">
-			<sports-content xmlns="http://iptc.org/std/SportsML/2008-04-01/"
-				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-				xsi:schemaLocation="http://iptc.org/std/SportsML/2008-04-01/ 
+<newsItem xmlns="http://iptc.org/std/nar/2006-10-01/" guid="tag:xmlteam.com,2015:xt.5932656-pitcher-preview"
+          version="8"
+          xmlns:xts="www.xmlteam.com" standard="NewsML-G2" standardversion="2.21"
+          conformance="power" xml:lang="en-US">
+  <catalogRef
+    href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml" />
+  <catalogRef
+    href="http://www.xmlteam.com/specification/xts-SportsCodesCatalog_1.xml" />
+  <itemMeta>
+    <itemClass qcode="ninat:text" />
+    <provider qcode="web:www.xmlteam.com" />
+    <versionCreated>2015-10-19T16:00:00Z</versionCreated>
+    <pubStatus qcode="stat:usable" />
+    <fileName>xt.5932656-pitcher-preview.xml</fileName>
+  </itemMeta>
+  <contentMeta>
+    <contentCreated>2015-10-19T12:17:00-05:00</contentCreated>
+    <located qcode="city:Philadelphia">
+      <broader qcode="reg:Pennsylvania" />
+      <broader qcode="cntry:USA" />
+    </located>
+    <creator qcode="web:sportsnetwork.com">
+      <name>The Sports Network</name>
+    </creator>
+    <altId type="idtype:tsn-id" id="sportsnetwork.com-5932656" />
+    <altId type="idtype:revision-id"
+           id="l.mlb.com-2015-e.19358-pre-event-coverage-sportsnetwork.com" />
+    <genre type="spcpnat:spfixt" qcode="spfixt:pitcher-preview">
+      <name xml:lang="en-US">Game Pitcher Preview</name>
+      <broader qcode="dclass:event-summary" />
+    </genre>
+    <genre type="spcpnat:dclass" qcode="dclass:event-summary" />
+    <genre type="xts-genre:tsn-fixture" qcode="tsn-fixture:mlbpreviewxml" />
+    <language tag="en-US" />
+    <subject qcode="medtop:20000822">
+      <name xml:lang="en-US">sport</name>
+    </subject>
+    <subject qcode="medtop:20000849">
+      <name xml:lang="en-US">Baseball</name>
+      <broader qcode="medtop:20000822" />
+    </subject>
+    <subject qcode="league:l.mlb.com">
+      <name xml:lang="en-US">Major League Baseball</name>
+      <broader qcode="medtop:20000822" />
+      <sameAs qcode="subj:15007000" />
+    </subject>
+    <subject type="spcpnat:conf" qcode="conf:l.mlb.com-c.national">
+      <name xml:lang="en-US">National</name>
+      <broader qcode="league:l.mlb.com" />
+    </subject>
+    <subject type="cpnat:event" qcode="event:l.mlb.com-2015-e.19358" />
+    <subject type="spcpnat:team" qcode="team:l.mlb.com-t.19">
+      <name>Philadelphia Phillies</name>
+    </subject>
+    <subject type="spcpnat:team" qcode="team:l.mlb.com-t.26">
+      <name>Arizona Diamondbacks</name>
+    </subject>
+    <subject type="cpnat:person" qcode="person:l.mlb.com-p.456">
+      <name role="nrol:full">Doug Davis</name>
+      <sameAs qcode="fssID:45679" />
+    </subject>
+    <subject type="cpnat:person" qcode="person:l.mlb.com-p.123">
+      <name role="nrol:full">Freddy Garcia</name>
+      <sameAs qcode="fssID:45680" />
+    </subject>
+    <headline>Pitcher Preview: Arizona Diamondbacks (29-23) at Philadelphia
+      Phillies (26-24),7:05 p.m.</headline>
+    <slugline separator="-">AAV!PREVIEW-ARI-PHI</slugline>
+  </contentMeta>
+  <contentSet>
+    <inlineXML contenttype="application/sportsml+xml">
+      <sports-content xmlns="http://iptc.org/std/SportsML/2008-04-01/"
+                      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://iptc.org/std/SportsML/2008-04-01/
 				XSD/SportsML/sportsml-G2.xsd">
-				<sports-event>
-					<event-metadata date-coverage-type="event"
-						event-key="event:l.mlb.com-2015-e.19358" 
-						date-coverage-value="l.mlb.com-2015-e.19358"
-						event-status="pre-event" start-date-time="2015-10-20T19:05:00-05:00">
-					</event-metadata>
-					<team>
-						<team-metadata team-key="team:l.mlb.com-t.26"
-							alignment="away">
-							<name full="Arizona Diamondbacks" role="nrol:full">Arizona Diamondbacks</name>
-						</team-metadata>
-						<player>
-							<player-metadata position-event="1"
-								player-key="player:l.mlb.com-p.456">
-								<name full="Doug Davis" role="nrol:full">Doug Davis</name>
-								<name part="nprt:given">Doug</name>
-								<name part="nprt:family">Davis</name>
-							</player-metadata>
-							<player-stats>
-								<player-stats-baseball>
-									<stats-baseball-pitching earned-runs="3.57"
-									wins="2" losses="6" winning-percentage=".250" />
-								</player-stats-baseball>
-							</player-stats>
-						</player>
-					</team>
-					<team>
-						<team-metadata team-key="team:l.mlb.com-t.19"
-							alignment="home">
-							<name full="Philadelphia Phillies" role="nrol:full">
-							Philadelphia Phillies</name>
-						</team-metadata>
-						<player>
-							<player-metadata position-event="1"
-								player-key="player:l.mlb.com-p.123">
-								<name full="Freddy Garcia" role="nrol:full">
-								Freddy Garcia</name>
-								<name part="nprt:given">Freddy</name>
-								<name part="nprt:family">Garcia</name>
-							</player-metadata>
-							<player-stats>
-								<player-stats-baseball>
-									<stats-baseball-pitching earned-runs="4.81"
-									wins="1" losses="3" winning-percentage=".250" />
-								</player-stats-baseball>
-							</player-stats>
-						</player>
-					</team>
-				</sports-event>
-			</sports-content>
-		</inlineXML>
-	</contentSet>
+        <sports-event>
+          <event-metadata date-coverage-type="event"
+                          event-key="event:l.mlb.com-2015-e.19358"
+                          date-coverage-value="l.mlb.com-2015-e.19358"
+                          event-status="pre-event" start-date-time="2015-10-20T19:05:00-05:00">
+          </event-metadata>
+          <team>
+            <team-metadata team-key="team:l.mlb.com-t.26"
+                           alignment="away">
+              <name full="Arizona Diamondbacks" role="nrol:full">Arizona Diamondbacks</name>
+            </team-metadata>
+            <player>
+              <player-metadata position-event="1"
+                               player-key="player:l.mlb.com-p.456">
+                <name full="Doug Davis" role="nrol:full">Doug Davis</name>
+                <name part="nprt:given">Doug</name>
+                <name part="nprt:family">Davis</name>
+              </player-metadata>
+              <player-stats>
+                <player-stats-baseball>
+                  <stats-baseball-pitching earned-runs="3.57"
+                                           wins="2" losses="6" winning-percentage=".250" />
+                </player-stats-baseball>
+              </player-stats>
+            </player>
+          </team>
+          <team>
+            <team-metadata team-key="team:l.mlb.com-t.19"
+                           alignment="home">
+              <name full="Philadelphia Phillies" role="nrol:full">
+                Philadelphia Phillies</name>
+            </team-metadata>
+            <player>
+              <player-metadata position-event="1"
+                               player-key="player:l.mlb.com-p.123">
+                <name full="Freddy Garcia" role="nrol:full">
+                  Freddy Garcia</name>
+                <name part="nprt:given">Freddy</name>
+                <name part="nprt:family">Garcia</name>
+              </player-metadata>
+              <player-stats>
+                <player-stats-baseball>
+                  <stats-baseball-pitching earned-runs="4.81"
+                                           wins="1" losses="3" winning-percentage=".250" />
+                </player-stats-baseball>
+              </player-stats>
+            </player>
+          </team>
+        </sports-event>
+      </sports-content>
+    </inlineXML>
+  </contentSet>
 </newsItem>
